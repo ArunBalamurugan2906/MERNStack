@@ -1,0 +1,35 @@
+.products {
+  width: 95ve;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  flex-wrap: wrap;
+  margin: auto;
+  gap: 20px;
+  text-align: center;
+}
+.product {
+  flex-grow: 1;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-top: 10px;
+}
+.button_icon {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 10px;
+  margin: 10px;
+}
+.shop {
+  background-image: url("./assets/shop.png");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
