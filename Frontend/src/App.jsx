@@ -16,24 +16,6 @@ import Notfound from "./E-Commerce/Notfound";
 import Reducer from "./E-Commerce/Reducer/Reducer";
 import NavBar from "./E-Commerce/NavBar";
 
-// import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-// import { ToastContainer } from "react-toastify";
-// import "../node_modules/react-toastify/dist/ReactToastify.css";
-// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-// import NavBar from "./E-Commerce/NavBar";
-// import Home from "./E-Commerce/Home";
-// import Signup from "./E-Commerce/Signup";
-// import ProductList from "./E-Commerce/ProductList";
-// import Products from "./E-Commerce/Products";
-// import Todo from "./E-Commerce/Todo";
-// import NewProduct from "./E-Commerce/NewProduct";
-// import UpdateProduct from "./E-Commerce/UpdateProduct";
-// import Reducer from "./E-Commerce/Reducer/Reducer";
-// import Notfound from "./E-Commerce/Notfound";
-// import WishList from "./E-Commerce/WishList";
-// import Login from "./E-Commerce/Login";
-// import ProtectedRoute from "./E-Commerce/ProtectedRoute";
-
 if (!localStorage.getItem("cart")) {
   localStorage.setItem("cart", JSON.stringify());
 }
